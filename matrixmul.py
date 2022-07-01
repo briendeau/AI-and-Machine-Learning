@@ -1,5 +1,6 @@
 import numpy as np
 import time
+# SGEMM single-precision general matrix multiply
 
 N = 4092
 if __name__ == "__main__":
@@ -21,12 +22,6 @@ if __name__ == "__main__":
     print(f"{flop/s * 1e-9} GFLOPS")
     
     
-    
-    
-    
-    
-    
-    
-    
+
     
     
