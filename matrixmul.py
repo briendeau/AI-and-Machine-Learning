@@ -4,7 +4,7 @@ import time
 
 N = 4092
 if __name__ == "__main__":
-    #n^2 in memory
+    #N^2 in memory
     A = np.random.randn(N, N).astype(np.float32)
     
     #N^2 in memory
@@ -20,8 +20,5 @@ if __name__ == "__main__":
     s = et - st
    
     print(f"{flop/s * 1e-9} GFLOPS")
-    
-    
-
     
     
